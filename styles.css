@@ -81,15 +81,9 @@ section[id] {
   scroll-margin-top: 40px;
 }
 
-.role,
 .meta,
 footer {
   color: #666666;
-}
-
-.role {
-  margin-bottom: 12px;
-  font-size: 14px;
 }
 
 h1,
@@ -104,13 +98,6 @@ h1 {
   font-weight: 600;
   letter-spacing: -0.045em;
   line-height: 1.1;
-}
-
-.research-focus {
-  margin: 0 0 20px;
-  font-size: 21px;
-  letter-spacing: -0.015em;
-  line-height: 1.55;
 }
 
 
@@ -130,6 +117,97 @@ h2 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: -0.015em;
+}
+
+h3 {
+  margin: 0 0 16px;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.publications + h3 {
+  margin-top: 40px;
+}
+
+.publications {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.publication + .publication {
+  margin-top: 24px;
+}
+
+.publication p {
+  margin-bottom: 0;
+}
+
+.pub-title {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.pub-authors,
+.pub-venue {
+  font-size: 14px;
+}
+
+.pub-authors strong {
+  font-weight: 600;
+}
+
+.pub-venue {
+  color: #666666;
+}
+
+.education,
+.updates {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.education li,
+.updates li {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 16px;
+}
+
+.education li + li {
+  margin-top: 24px;
+}
+
+.updates li + li {
+  margin-top: 12px;
+}
+
+.education > li > time,
+.edu-period,
+.updates time {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.7rem;
+}
+
+.education p,
+.updates p {
+  margin-bottom: 0;
+}
+
+.edu-degree {
+  font-weight: 500;
+}
+
+.edu-school,
+.edu-thesis {
+  font-size: 14px;
+}
+
+.edu-thesis {
+  color: #666666;
 }
 
 footer {
